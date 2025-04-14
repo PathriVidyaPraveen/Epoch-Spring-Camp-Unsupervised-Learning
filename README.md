@@ -17,7 +17,8 @@ You can utilize the longitude and latitude data to plot the geographical locatio
 **3. Clustering Analysis:**  
 
 Implement the k-means clustering algorithm from scratch (do not use any pre-built k-means function).
-Apply this algorithm to the longitude and latitude data of your filtered pincodes to identify distinct clusters within your state.
+Apply this algorithm to the longitude and latitude data of your filtered pincodes to identify distinct clusters within your state.  
+
 **4. Inference and Insights:**  
 
 Draw meaningful inferences from your clustering results. Analyze the characteristics of the clusters you identified and provide insights about the geographical distribution and potential implications.  
