@@ -4,7 +4,7 @@ This is a GitHub Repository for the Epoch Spring Camp Unsupervised Learning Task
 **Problem Statement:**
 
 **Objective**
-You have been provided with a dataset containing information about various pincodes across India, including their corresponding longitudes and latitudes (clustering_data.csv). Your task is to focus specifically on the pincodes of your home state. Here’s what you need to do:
+You have been provided with a dataset containing information about various pincodes across India, including their corresponding longitudes and latitudes (clustering_data.csv). Your task is to focus specifically on the pincodes of your home state. Here’s what you need to do: \n
 **1. Data Filtering:**
 ○ Extract the entries corresponding to your home state from the dataset. Ensure you accurately filter out only those pincodes that belong to your home state.
 **2. Data Visualization:**
