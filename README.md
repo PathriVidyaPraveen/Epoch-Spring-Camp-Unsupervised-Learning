@@ -11,7 +11,8 @@ You have been provided with a dataset containing information about various pinco
 
 Extract the entries corresponding to your home state from the dataset. Ensure you accurately filter out only those pincodes that belong to your home state.  
 
-**2. Data Visualization:**
+**2. Data Visualization:**  
+
 You can utilize the longitude and latitude data to plot the geographical locations of these pincodes on a map (get creative!). This will help in visualizing the distribution of the pincodes across your state.  
 
 **3. Clustering Analysis:**  
