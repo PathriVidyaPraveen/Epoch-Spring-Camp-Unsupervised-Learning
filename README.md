@@ -39,4 +39,13 @@ Ensure your data is preprocessed correctly before applying the k-means algorithm
 3. Actually Andhra Pradesh is located between 12 to 19 degree North latitudes and 77 to 85 degree East longitude approximately. But there are some extreme outliers for some places ... There is one point at 800 North latitude which is impossible. Also some places have extremely low longitude. This suggests that there may be some mistakes in the dataset. So by using these K-Means Clustering , I think we may be able to find out these places as anomalies and this may also help us in verifying data once again.
 4. By increasing the number of clusters , I think we may further subdivide the state into districts and this can be highly useful in real-world tasks like Business and Postal Departments , Disaster Management etc..
 
+**Instructions to run the code on the machine:**  
+1. Open a terminal (Command Prompt, Terminal, or Anaconda Prompt, depending on your OS and setup)
+2. Navigate to the directory where your requirements.txt file is located:
+   cd path/to/your/project
+3. Run the following command: pip install -r requirements.txt (This installs all the required libraries in the machine).
+4. After that , finally run the code using the command : python3 k_means_clustering.py
+5. Note : All the files must be in the same directory.
+
+
 
