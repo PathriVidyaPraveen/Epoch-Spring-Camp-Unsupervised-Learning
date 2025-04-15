@@ -29,3 +29,10 @@ Draw meaningful inferences from your clustering results. Analyze the characteris
 Use appropriate visualization techniques (like scatter plots, maps, etc.) to illustrate the clusters and any other relevant observations.
 Ensure your data is preprocessed correctly before applying the k-means algorithm (this may include handling missing values,checking for duplicates etc.).  
 
+**New Features Added**  
+1. For the scatter plot of the Latitude and Longitude using matplotlib , I have tried to make something cool about the plot by making it display all the details regarding that place using external library mplcursors . Here I have added a feature to display all the details of a place when we hover the mouse cursor onto that point on the scatter plot.
+2. I have tried to optimize the value of k in the K-Means clustering algorithm . So I have found out the optimal k value by plotting the elbow curve by calculating within-cluster sum of squares (WCSS) value for different k values.
+
+**Inferences and Insights:**  
+
+
