@@ -34,5 +34,9 @@ Ensure your data is preprocessed correctly before applying the k-means algorithm
 2. I have tried to optimize the value of k in the K-Means clustering algorithm . So I have found out the optimal k value by plotting the elbow curve by calculating within-cluster sum of squares (WCSS) value for different k values.
 
 **Inferences and Insights:**  
+1. Optimal number of clusters i.e value of K determined by the elbow point of the curve is 2 for the given csv file.
+2. Number of points clustered into 2 clustered are 373 and 8184 respectively.
+3. Actually Andhra Pradesh is located between 12 to 19 degree North latitudes and 77 to 85 degree East longitude approximately. But there are some extreme outliers for some places ... There is one point at 800 North latitude which is impossible. Also some places have extremely low longitude. This suggests that there may be some mistakes in the dataset. So by using these K-Means Clustering , I think we may be able to find out these places as anomalies and this may also help us in verifying data once again.
+4. By increasing the number of clusters , I think we may further subdivide the state into districts and this can be highly useful in real-world tasks like Business and Postal Departments , Disaster Management etc..
 
 
