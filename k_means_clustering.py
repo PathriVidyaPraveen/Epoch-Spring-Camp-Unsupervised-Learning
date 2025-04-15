@@ -190,7 +190,7 @@ def on_add(sel):
 
 
 # Plotting the clusters
-axs2.scatter(home_state_data_filtered['Longitude'], home_state_data_filtered['Latitude'], c=predictions, cmap='inferno', marker='o')
+axs2.scatter(home_state_data_filtered['Longitude'], home_state_data_filtered['Latitude'], c=predictions, cmap='viridis', marker='o')
 axs2.scatter(k_means_clustering_model.centroids[:, 0], k_means_clustering_model.centroids[:, 1], c='red', marker='x', s=200, label='Centroids')
 axs2.set_title(f'Clusters in {home_state}')
 axs2.set_xlabel('Longitude')
